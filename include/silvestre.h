@@ -1,5 +1,5 @@
-#ifndef SILVESTRE.H
-#define SILVESTRE.H
+#ifndef SILVESTRE_H
+#define SILVESTRE_H
 
 #include <iostream>
 #include <string>

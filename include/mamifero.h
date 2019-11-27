@@ -1,5 +1,5 @@
-#ifndef MAMIFERO.H
-#define MAMIFERO.H
+#ifndef MAMIFERO_H
+#define MAMIFERO_H
 
 #include <iostream>
 #include <string>
@@ -40,7 +40,7 @@ public:
      */
 
      Mamifero();
-     Mamifero(int _id, string _classe, string _nome_cientifico, char _sexo, double _tamanho, string _dieta, Veterinario _veterinario, Tratador _tratador, string _nome_batismo, string _cor_pelo);
+     Mamifero(int _id, string _classe, string _nome_cientifico, char _sexo, double _tamanho, string _dieta, Veterinario *_veterinario, Tratador *_tratador, string _nome_batismo, string _cor_pelo);
      ~Mamifero();
 
 };

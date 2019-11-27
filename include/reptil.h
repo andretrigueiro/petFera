@@ -1,5 +1,5 @@
-#ifndef REPTIL.H
-#define REPTIL.H
+#ifndef REPTIL_H
+#define REPTIL_H
 
 #include <iostream>
 #include <string>

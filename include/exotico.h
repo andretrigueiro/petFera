@@ -1,5 +1,5 @@
-#ifndef EXOTICO.H
-#define EXOCITO.H
+#ifndef EXOTICO_H
+#define EXOCITO_H
 
 #include <iostream>
 #include <string>

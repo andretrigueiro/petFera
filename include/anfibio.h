@@ -1,5 +1,5 @@
-#ifndef ANFIBIO.H
-#define ANFIBIO.H
+#ifndef ANFIBIO_H
+#define ANFIBIO_H
 
 #include <iostream>
 #include <string>

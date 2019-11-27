@@ -1,5 +1,5 @@
-#ifndef ANIMAL.H
-#define ANIMAL.H
+#ifndef ANIMAL_H
+#define ANIMAL_H
 
 #include <iostream>
 #include <string>
@@ -24,8 +24,8 @@ private:
    char sexo;
    double tamanho;
    string dieta;
-   Veterinario veterinario;
-   Tratador tratador;
+   Veterinario *veterinario;
+   Tratador *tratador;
    string nome_batismo;
 
 public:
@@ -56,8 +56,8 @@ public:
     void setSexo(char sexo);
     void setTamanho(double tamanho);
     void setDieta(string dieta);
-    void setVeterinario(Veterinario veterinario);
-    void setTratador(Tratador tratador);
+    void setVeterinario(Veterinario *veterinario);
+    void setTratador(Tratador *tratador);
     void setNomeBatismo(string nome_batismo);
 
     /**
@@ -66,7 +66,7 @@ public:
      */
 
      Animal();
-     Animal(int _id, string _classe, string _nome_cientifico, char _sexo, double _tamanho, string _dieta, Veterinario _veterinario, Tratador _tratador, string _nome_batismo);
+     Animal(int _id, string _classe, string _nome_cientifico, char _sexo, double _tamanho, string _dieta, Veterinario *_veterinario, Tratador *_tratador, string _nome_batismo);
      ~Animal();
 
 };

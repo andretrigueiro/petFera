@@ -1,5 +1,5 @@
-#ifndef NATIVO.H
-#define NATIVO.H
+#ifndef NATIVO_H
+#define NATIVO_H
 
 #include <iostream>
 #include <string>

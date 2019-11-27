@@ -1,5 +1,5 @@
-#ifndef FUNCIONARIO.H
-#define FUNCIONARIO.H
+#ifndef FUNCIONARIO_H
+#define FUNCIONARIO_H
 
 #include <iostream>
 #include <string>

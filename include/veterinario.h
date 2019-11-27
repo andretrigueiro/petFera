@@ -1,5 +1,5 @@
-#ifndef VETERINARIO.H
-#define VETERINARIO.H
+#ifndef VETERINARIO_H
+#define VETERINARIO_H
 
 #include <iostream>
 #include <string>
@@ -40,9 +40,8 @@ public:
      */
 
      Veterinario();
-     Veterinario(int id, string nome, string cpf, int idade, char tipo_sanguineo, char fator_rh, string especialidade, string cmv);
+     Veterinario(int id, string _nome, string cpf, int idade, char tipo_sanguineo, char fator_rh, string especialidade, string cmv);
      ~Veterinario();
-
 };
 
 #endif

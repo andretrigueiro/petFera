@@ -15,9 +15,9 @@ Funcionario::~Funcionario() {}
 //Construtor com parâmetro, utilizando as propriedades do funcionario
 Funcionario::Funcionario(int _id, string _nome, string _cpf, int _idade, char _tipo_sanguineo, char _fator_rh, string _especialidade)
 {
-  setID(_id)
+  setID(_id);
   setNome(_nome);
-  etCPF(_cpf);
+  setCPF(_cpf);
   setIdade(_idade);
   setTipoSanguineo(_tipo_sanguineo);
   setFatorRh(_fator_rh);
@@ -96,3 +96,4 @@ void Funcionario::setEspecialidade(string especialidade)
 {
   this->especialidade = especialidade;
 }
+

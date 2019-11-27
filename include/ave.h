@@ -1,5 +1,5 @@
-#ifndef AVE.H
-#define AVE.H
+#ifndef AVE_H
+#define AVE_H
 
 #include <iostream>
 #include <string>
@@ -43,7 +43,7 @@ public:
      */
 
      Ave();
-     Ave(int _id, string _classe, string _nome_cientifico, char _sexo, double _tamanho, string _dieta, Veterinario _veterinario, Tratador _tratador, string _nome_batismo, double _tamanho_do_bico_cm, double _ envergadura_das_asas);
+     Ave(int _id, string _classe, string _nome_cientifico, char _sexo, double _tamanho, string _dieta, Veterinario _veterinario, Tratador _tratador, string _nome_batismo, double _tamanho_do_bico_cm, double _envergadura_das_asas);
      ~Ave();
 
 };

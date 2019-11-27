@@ -15,14 +15,14 @@ Tratador::~Tratador() {}
 //Construtor com parâmetro, utilizando as propriedades do tratador e as propriedades herdadas do funcionario
 Tratador::Tratador(int _id, string _nome, string _cpf, int _idade, char _tipo_sanguineo, char _fator_rh, string _especialidade, int _nivel_de_seguranca)
 {
-  setID(_id)
+  setID(_id);
   setNome(_nome);
-  etCPF(_cpf);
+  setCPF(_cpf);
   setIdade(_idade);
   setTipoSanguineo(_tipo_sanguineo);
   setFatorRh(_fator_rh);
   setEspecialidade(_especialidade);
-  setNivelDeSeguranca(_nivel_de_seguranca)
+  setNivelDeSeguranca(_nivel_de_seguranca);
 }
 
 /**

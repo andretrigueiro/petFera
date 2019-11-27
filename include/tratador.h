@@ -1,5 +1,5 @@
-#ifndef TRATADOR.H
-#define TRATADOR.H
+#ifndef TRATADOR_H
+#define TRATADOR_H
 
 #include <iostream>
 #include <string>
